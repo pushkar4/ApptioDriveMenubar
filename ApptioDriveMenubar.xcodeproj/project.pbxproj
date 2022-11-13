@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582CD29429201385006272B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CD29329201385006272B9 /* AppDelegate.swift */; };
+		582CD2962920178C006272B9 /* MenuBarIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CD2952920178C006272B9 /* MenuBarIconView.swift */; };
+		582CD29829201D88006272B9 /* PopupStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CD29729201D88006272B9 /* PopupStatusView.swift */; };
+		582CD29A2920E1D5006272B9 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CD2992920E1D5006272B9 /* FileItem.swift */; };
+		582CD29C29211FAE006272B9 /* filestatus.json in Resources */ = {isa = PBXBuildFile; fileRef = 582CD29B29211FAE006272B9 /* filestatus.json */; };
+		582CD29E292120A8006272B9 /* FileStatusLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CD29D292120A8006272B9 /* FileStatusLoader.swift */; };
+		588930152917970100589B4C /* ApptioDriveMenubarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588930142917970100589B4C /* ApptioDriveMenubarApp.swift */; };
+		588930192917970300589B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588930182917970300589B4C /* Assets.xcassets */; };
+		5889301C2917970300589B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5889301B2917970300589B4C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		582CD29329201385006272B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582CD2952920178C006272B9 /* MenuBarIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIconView.swift; sourceTree = "<group>"; };
+		582CD29729201D88006272B9 /* PopupStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupStatusView.swift; sourceTree = "<group>"; };
+		582CD2992920E1D5006272B9 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		582CD29B29211FAE006272B9 /* filestatus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filestatus.json; sourceTree = "<group>"; };
+		582CD29D292120A8006272B9 /* FileStatusLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStatusLoader.swift; sourceTree = "<group>"; };
+		588930112917970100589B4C /* ApptioDriveMenubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApptioDriveMenubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588930142917970100589B4C /* ApptioDriveMenubarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptioDriveMenubarApp.swift; sourceTree = "<group>"; };
+		588930182917970300589B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5889301B2917970300589B4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5889301D2917970300589B4C /* ApptioDriveMenubar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApptioDriveMenubar.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5889300E2917970100589B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588930082917970100589B4C = {
+			isa = PBXGroup;
+			children = (
+				588930132917970100589B4C /* ApptioDriveMenubar */,
+				588930122917970100589B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588930122917970100589B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588930112917970100589B4C /* ApptioDriveMenubar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588930132917970100589B4C /* ApptioDriveMenubar */ = {
+			isa = PBXGroup;
+			children = (
+				582CD29B29211FAE006272B9 /* filestatus.json */,
+				588930142917970100589B4C /* ApptioDriveMenubarApp.swift */,
+				588930182917970300589B4C /* Assets.xcassets */,
+				5889301D2917970300589B4C /* ApptioDriveMenubar.entitlements */,
+				5889301A2917970300589B4C /* Preview Content */,
+				582CD29329201385006272B9 /* AppDelegate.swift */,
+				582CD2952920178C006272B9 /* MenuBarIconView.swift */,
+				582CD29729201D88006272B9 /* PopupStatusView.swift */,
+				582CD2992920E1D5006272B9 /* FileItem.swift */,
+				582CD29D292120A8006272B9 /* FileStatusLoader.swift */,
+			);
+			path = ApptioDriveMenubar;
+			sourceTree = "<group>";
+		};
+		5889301A2917970300589B4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5889301B2917970300589B4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588930102917970100589B4C /* ApptioDriveMenubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588930202917970300589B4C /* Build configuration list for PBXNativeTarget "ApptioDriveMenubar" */;
+			buildPhases = (
+				5889300D2917970100589B4C /* Sources */,
+				5889300E2917970100589B4C /* Frameworks */,
+				5889300F2917970100589B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApptioDriveMenubar;
+			productName = ApptioDriveMenubar;
+			productReference = 588930112917970100589B4C /* ApptioDriveMenubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588930092917970100589B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					588930102917970100589B4C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 5889300C2917970100589B4C /* Build configuration list for PBXProject "ApptioDriveMenubar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588930082917970100589B4C;
+			productRefGroup = 588930122917970100589B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588930102917970100589B4C /* ApptioDriveMenubar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5889300F2917970100589B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5889301C2917970300589B4C /* Preview Assets.xcassets in Resources */,
+				582CD29C29211FAE006272B9 /* filestatus.json in Resources */,
+				588930192917970300589B4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5889300D2917970100589B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582CD29E292120A8006272B9 /* FileStatusLoader.swift in Sources */,
+				582CD2962920178C006272B9 /* MenuBarIconView.swift in Sources */,
+				582CD29A2920E1D5006272B9 /* FileItem.swift in Sources */,
+				582CD29429201385006272B9 /* AppDelegate.swift in Sources */,
+				588930152917970100589B4C /* ApptioDriveMenubarApp.swift in Sources */,
+				582CD29829201D88006272B9 /* PopupStatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5889301E2917970300589B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5889301F2917970300589B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		588930212917970300589B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApptioDriveMenubar/ApptioDriveMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApptioDriveMenubar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.pushkar4.ApptioDriveMenubar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		588930222917970300589B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ApptioDriveMenubar/ApptioDriveMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApptioDriveMenubar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.pushkar4.ApptioDriveMenubar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5889300C2917970100589B4C /* Build configuration list for PBXProject "ApptioDriveMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5889301E2917970300589B4C /* Debug */,
+				5889301F2917970300589B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588930202917970300589B4C /* Build configuration list for PBXNativeTarget "ApptioDriveMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588930212917970300589B4C /* Debug */,
+				588930222917970300589B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588930092917970100589B4C /* Project object */;
+}
