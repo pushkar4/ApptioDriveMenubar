@@ -1,0 +1,17 @@
+on run {input, parameters}
+	set theFilePath to POSIX path of input
+	do shell script "/Users/psharma/office/Hackathon5/code/qa-script.sh " &theFilePath
+	return input
+end run
+
+
+on run {input, parameters}
+	set theseFinderItems to {}
+    repeat with aItem in input
+        copy quoted form of POSIX path of aItem to end of theseFinderItems
+        copy space to end of theseFinderItems
+    end repeat
+	
+	do shell script "/Users/psharma/office/Hackathon5/code/qa-script.sh " &theseFinderItems
+	return input
+end run
