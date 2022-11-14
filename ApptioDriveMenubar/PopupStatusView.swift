@@ -12,6 +12,7 @@ struct PopupStatusView: View {
     var fileItems = FileItem.all()
     @Environment(\.openURL) var openURL
     @State var degress = 0.0
+    @State var refreshed = false
     
 //    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -58,7 +59,12 @@ struct PopupStatusView: View {
                 
                 List(self.fileItems, id: \.name) { item in
                     HStack {
-                        if item.status == "uploading" {
+                        if item.status == "uploaded" || refreshed == true {
+                            Image("tick")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                                .padding(1)
+                        } else {
                             Circle()
                                 .trim(from: 0.0, to: 0.6)
                                 .stroke(.blue, lineWidth: 3.5)
@@ -67,11 +73,6 @@ struct PopupStatusView: View {
                                 .onAppear(perform: {self.start()})
                                 .padding(3)
                             
-                        } else {
-                            Image("tick")
-                                .resizable()
-                                .frame(width: 20, height: 20)
-                                .padding(1)
                         }
                         Text(item.name)
                     }
@@ -84,6 +85,11 @@ struct PopupStatusView: View {
                     Button("Browse in Apptio") {
                         openURL(URL(string: "https://www.apptio.com")!)
                     }.buttonStyle(.borderedProminent)
+                    Button(action: {
+                        refreshed = true
+                    }, label: {
+                        Image(systemName: "arrow.triangle.2.circlepath")
+                    }).buttonStyle(.plain)
                     Button("Quit") {
                         NSApp.terminate(self)
                     }.buttonStyle(.borderedProminent)

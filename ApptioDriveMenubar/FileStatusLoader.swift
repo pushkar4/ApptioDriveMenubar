@@ -12,7 +12,6 @@ public class FileStatusLoader {
     @Published var fileItems = [FileItem]()
     
     init() {
-        print("Loading...")
         load()
     }
     
