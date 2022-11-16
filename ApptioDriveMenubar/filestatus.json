@@ -1,34 +1,26 @@
 [
 	{
-		"name": "abc.pdf",
+		"name": "AWS_Sept22.pdf",
 		"status": "uploaded"
 	},
 	{
-		"name": "def.pdf",
+		"name": "AWS_Oct22.pdf",
 		"status": "uploaded"
 	},
 	{
-		"name": "fgh.pdf",
+		"name": "Azure_Oct22.jpg",
 		"status": "uploading"
 	},
 	{
-		"name": "jkl.pdf",
+		"name": "GCP_Oct22.jpg",
 		"status": "uploading"
 	},
 	{
-		"name": "lmn.pdf",
+		"name": "Lineitems.xlsx",
 		"status": "uploading"
 	},
 	{
-		"name": "zxc.pdf",
-		"status": "uploaded"
-	},
-	{
-		"name": "qwe.pdf",
-		"status": "uploaded"
-	},
-	{
-		"name": "asd.pdf",
-		"status": "uploaded"
-	}	
+		"name": "50kLineitems.csv",
+		"status": "uploading"
+	}
 ]

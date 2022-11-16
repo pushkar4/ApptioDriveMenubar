@@ -83,7 +83,7 @@ struct PopupStatusView: View {
                 HStack {
                     Spacer()
                     Button("Browse in Apptio") {
-                        openURL(URL(string: "https://www.apptio.com")!)
+                        openURL(URL(string: "https://pushkar4.github.io/apptio-drive-ui")!)
                     }.buttonStyle(.borderedProminent)
                     Button(action: {
                         refreshed = true
